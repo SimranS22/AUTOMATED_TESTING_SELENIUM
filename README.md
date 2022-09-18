@@ -16,4 +16,4 @@ This Repository contains the .py file using which I have conducted the automated
 1. Python
 2. Pycharm Community Edition 2020.1.2
 3. Selenium
-4. Web Driver-Chromedriver.exe
+4. Web Driver - Chrome Driver(chromedriver.exe)
