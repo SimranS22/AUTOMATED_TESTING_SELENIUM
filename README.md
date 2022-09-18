@@ -1,6 +1,8 @@
 # TESTING(AUTOMATED)
 
-This Repository contains the .py file using which I have conducted the automated test on a webpage as part of GRIP(Graduate Rotational Internship Program)@The Sparks Foundation
+The 'Testing(Automated)' is a Web-Development Internship Project (Task #6) as part of GRIP(Graduate Rotational Internship Program)@The Sparks Foundation
+
+This Repository contains the .py file using which I have conducted the automated test on a website.
 
 ### Task Instructions
 
