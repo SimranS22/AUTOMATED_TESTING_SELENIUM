@@ -10,6 +10,7 @@ from selenium.webdriver.support.select import Select
 driver = webdriver.Chrome()
 
 driver.get("https://www.thesparksfoundationsingapore.org/")
+time.sleep(5)
 
 print("|| Test Cases ||\n")
 
@@ -17,6 +18,7 @@ print("|| Test Cases ||\n")
 print("|| Test Case 1 ||\n")
 try:
     driver.find_element(By.XPATH, '/html/body/div[1]/div/div[1]/h1/a/img')
+    time.sleep(5)
     print("Logo Verification Successful !!\n")
 except NoSuchElementException:
     print("The Logo does not exist !!\n")
@@ -25,6 +27,7 @@ except NoSuchElementException:
 print("|| Test Case 2 ||\n")
 try:
     driver.find_element(By.CLASS_NAME, "navbar-brand")
+    time.sleep(5)
     print("Navigation Bar Verification Successful !!\n")
 except NoSuchElementException:
     print("The Navigation Bar does not exist !!\n")
@@ -187,4 +190,4 @@ try:
 
     print("\'Home\' Page Visit Successful !!\n")
 except NoSuchElementException:
-    print("\'Home\' Page does   not exist !!\n")
+    print("\'Home\' Page does not exist !!\n")
